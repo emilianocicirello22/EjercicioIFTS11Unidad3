@@ -10,6 +10,7 @@ namespace Ejercicio27
             //inicializamos variables
             double potencia = 0;
             
+            //calculamos las potencias
             for(int i =0; i<=10; i++)
             {
                 Console.WriteLine($"2^{i} = {Math.Pow(2, i)}");
